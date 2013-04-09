@@ -12,19 +12,20 @@ Import your PixelPost database in WordPress.
 
 == Description ==
 
-Set up your PixelPost database info, and let it work for a while. It’ll import categories, posts and comments. It’ll left a new table in the database, used by the provided index.php to keep the old link alive, by redirecting them to the new uri.
+Set up your PixelPost database info, and let it work for a while. It’ll import categories, posts and comments. It leaves a new table in the database, used by the provided index.php (see FAQ) to keep the old link alive, by redirecting them to the new uri.
 
 Imported posts are imported as posts with an "image" format in wordpress, the image attached to the imported post. A "more" separator is inserted between the image and the post content.
 
-How to use:
-1. in WP admin interface, go to Tools>Importer
-1. Click on Pixelpost, then set up the PixelPost database settings (in pixelpost.php).
-1. Click on "import categories", then click on "import posts". Depending on the number of posts in your PixelPost set up, this may take long (around 30 to 40 min in my case, I had around 850 posts)
 
 == Installation ==
 
 1. Upload `pixelpost-importer` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
+
+= Usage =
+1. in WP admin interface, go to Tools>Importer
+1. Click on Pixelpost, then set up the PixelPost database settings (in pixelpost.php).
+1. Click on "import categories", then click on "import posts". Depending on the number of posts in your PixelPost set up, this may take long (around 30 to 40 min in my case, I had around 850 posts)
 
 == Frequently asked questions ==
 
