@@ -1,10 +1,10 @@
 === Pixelpost Importer plugin for WordPress ===
-Contributors: Pierre Bodilis
+Contributors: kerlu
 Donate link: 
 Tags: PixelPost, importer
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 
+Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ How to use:
 
 == Installation ==
 
-1. Upload `pp2wp_importer` to the `/wp-content/plugins/` directory
+1. Upload `pixelpost-importer` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently asked questions ==
@@ -36,7 +36,8 @@ Categories, Posts, and Comments. Tags are not supported in this version.
 
 Here is a small hack-ish redirection script, to set where PixelPost's `index.php` was. Note that this works only if PixelPost and WordPress are installed on the same host. Simply create `index.php` and copy/paste the following script:
 
-`<?php
+<code>
+<?php
 
 define('WORDPRESS_LOAD', /* insert here the path to wordpress's wp-load.php */);
 
@@ -67,7 +68,7 @@ if( isset( $_GET['showimage']) && class_exists('PP_Importer') ) {
 header( "Status: 301 Moved Permanently", false, 301 );
 header( "Location: " . $link );
 exit();
-`
+</code>
 
 == Screenshots ==
 
@@ -75,7 +76,8 @@ exit();
 
 == Changelog ==
 
-
+No change.
 
 == Upgrade notice ==
 
+N/A
