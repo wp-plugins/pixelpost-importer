@@ -199,7 +199,7 @@ class PP_AjaxRatings_Importer extends PP_Importer {
     }
 
     function import_ratings() {
-        wp_enqueue_script( 'pixelpost-importer', plugins_url('/pixelpost-importer.js', __FILE__) );
+        wp_enqueue_script( 'pixelpost-importer', plugins_url('/pixelpost_ajaxratings-importer.js', __FILE__) );
         wp_localize_script( 'pixelpost-importer', 'pp_post_ids', $this->get_pp_post_ids() );
         echo '<p>' . sprintf(__('Retrieved %d posts from Pixelpost, importing...'), $this->get_pp_post_count()) . '</p>';
         echo '<p id="pp_ajaxRatings2wp_postRatings_migration_log">'. __('Starting...') . '</p>';
