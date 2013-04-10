@@ -1,4 +1,4 @@
-=== Pixelpost Importer plugin for WordPress ===
+=== Pixelpost Importer ===
 Contributors: kerlu
 Donate link: 
 Tags: PixelPost, importer, postratings, postrating
