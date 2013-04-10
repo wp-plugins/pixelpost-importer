@@ -4,7 +4,7 @@ Donate link:
 Tags: PixelPost, importer, postratings, postrating
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,7 +33,8 @@ Imported posts are imported as posts with an "image" format in wordpress, the im
 
 == Changelog ==
 
-No change.
+= 0.1.2 =
+* fix ratings importer
 
 == Upgrade notice ==
 
