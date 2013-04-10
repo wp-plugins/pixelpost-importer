@@ -1,14 +1,14 @@
 === Pixelpost Importer plugin for WordPress ===
 Contributors: kerlu
 Donate link: 
-Tags: PixelPost, importer
+Tags: PixelPost, importer, postratings, postrating
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: trunk
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Import your PixelPost database in WordPress.
+Import your PixelPost database in WordPress (categories, posts, comments, and ratings).
 
 == Description ==
 
@@ -26,6 +26,18 @@ Imported posts are imported as posts with an "image" format in wordpress, the im
 1. in WP admin interface, go to Tools>Importer
 1. Click on Pixelpost, then set up the PixelPost database settings (in pixelpost.php).
 1. Click on "import categories", then click on "import posts". Depending on the number of posts in your PixelPost set up, this may take long (around 30 to 40 min in my case, I had around 850 posts)
+
+== Screenshots ==
+
+1. Admin - Set up the PixelPost database information
+
+== Changelog ==
+
+No change.
+
+== Upgrade notice ==
+
+N/A
 
 == Frequently asked questions ==
 
@@ -71,14 +83,3 @@ header( "Location: " . $link );
 exit();
 </code>
 
-== Screenshots ==
-
-1. Set up the PixelPost database information.
-
-== Changelog ==
-
-No change.
-
-== Upgrade notice ==
-
-N/A
