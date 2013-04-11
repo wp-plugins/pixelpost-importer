@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/extend/plugins/pixelpost-importer/
 Description: Import posts, comments, and categories from a Pixelpost database.
 Author: Pierre Bodilis
 Author URI: http://rataki.eu/
-Version: 0.1.1
+Version: 0.1.2
 Text Domain: pixelpost-importer
 License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
