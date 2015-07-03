@@ -75,6 +75,7 @@ Support
 This plugin has been tested with the following version of Wordpress:
  * WordPress 3.5
  * WordPress 3.5.1
+ * WordPress 4.2.2
 
 About bug report
 ----------------
